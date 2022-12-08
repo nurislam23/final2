@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style3.css">
+    <title>restoran</title>
+</head>
+
+<body>
+
+    <div class="header">
+        <div class="container">
+            <div class="header-line">
+                <div class="header-logo">
+                    <img src="./logo.png.png" alt="">
+                </div>
+
+
+                <div class="nav">
+                    <a class="nav-item" href="#!">ГЛАВНАЯ</a>
+                    <a class="nav-item" href="#!">МЕНЮ</a>
+                    <a class="nav-item" href="./korzina.html">КОРЗИНА</a>
+                    <a class="nav-item" href="#!">БРОНЬ</a>
+                </div>
+
+                <div class="phone">
+                    <div class="phone-holder">
+                        <div class="phone-img">
+                            <img src="./phone.png" alt="">
+                        </div>
+                        <div class="number"><a class="num" href="#!">+999-501-44-35-12</a></div>
+                    </div>
+
+
+
+                    <div class="phone-text">
+                        Свяжитесь с нами для <br> бронирования
+                    </div>
+                </div>
+
+                <div class="btn">
+                    <a class="button" href="#!">ЗАКАЗ СТОЛИКА</a>
+                </div>
+            </div>
+
+
+
+
+
+            <div class="header-down">
+                <div class="header-title">
+                    Добро пожаловать в
+
+                    <div class="header-subtitle">
+                        Наш ресторан
+                    </div>
+                    <div class="header-suptitle">
+                        ДОМ ЛУЧШЕЙ ЕДЫ
+                    </div>
+                    <div class="header-bth">
+                        <a href="#menu-items" class="header-button">VIEW MENU</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="dishes">
+
+        <div class="container">
+            <div class="dishes-title">
+                Наши <span> гамбургеры</span>
+            </div>
+
+            <div class="burgers">
+                <div class="burgers-image">
+                    <img src="./pizza.jpg" alt="pizza">
+                </div>
+
+                <div class="burgers-items">
+                    <div class="burger-item">
+                        <img src="./burger.jpg" class="burger">
+                        <div class="burger-text">
+                            <span class="name">Гамбургер мини</span> ----------------- <span class="cost"> 220 </span> р
+
+                        </div>
+                    </div>
+                    <div class="burger-item">
+                        <img src="./bolshoj-gamburger-s-kartoshkoj-i-ovoshhami.jpg" class="burger">
+                        <div class="burger-text">
+                            <span class="name">Большой Гамбургер</span> ----------------- <span class="cost"> 320</span> р
+                        </div>
+                    </div>
+                    <div class="burger-item">
+                        <img src="./05d851bb31a66db0e399bd10d26d7569--homemade-burgers-cheat-meal.jpg" class="burger">
+                        <div class="burger-text">
+                            <span class="name">Гамбургер обычный</span> ----------------- <span class="cost">250</span> р
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="menu">
+
+        <div class="container">
+
+            <div class="menu-title">
+                Наши Блюда
+            </div>
+
+            <div class="menu-items" id="menu-items">
+
+                <div class="menu-item">
+                    <div class="menu-image">
+                        <img src="./плоа.jpg" class="menu-img">
+                        <div class="price">
+                            <img src="./price.png" class="price-image">
+                            <div class="price-420">
+                                200
+                            </div>
+                        </div>
+                    </div>
+                    <div class="menu-text">
+                        Плов
+                    </div>
+                    <div class="menu-subtext">
+                        плов – блюдо из мяса, риса, лука,<br> моркови и специй – включен в список<br> нематериального культурного наследия<br>ЮНЕСКО. Также узбекский плов вошел в <br>Книгу рекордов Гиннесса. Плов есть на<br>любом узбекском празднике,
+                        даже если его <br>хозяин другой национальности. Есть порядка<br> 200 видов плова и тысяча рецептов.
+                    </div>
+                    <div class="points" onclick="vivod()">
+                        ...
+                    </div>
+                    <div class="ingredient" id="plov">
+                        Ингредиенты:<br>v 300 грамм масло<br> 460 грамм баранины либо<br> говядины<br> 1 лук<br> 460 грамм моркови<br> Соль
+
+                        <br> 0,5 литра воды<br> 1 кг рис<br> 2 чеснока<br> 2 красных перца<br> ? чайной ложки кумин<br> 200 грамм изюма<br>
+                    </div>
+                    <div class="menu-button">
+                        <a href="nuris.html" class="menu-btn"> ЗАКАЗАТЬ</a>
+                    </div>
+
+                </div>
+                <div class="menu-item">
+                    <div class="menu-image">
+                        <img src="./лагман.jpg" class="menu-img">
+                        <div class="price">
+                            <img src="./price.png" class="price-image">
+                            <div class="price-420">
+                                170
+                            </div>
+                        </div>
+                    </div>
+                    <div class="menu-text">
+                        Лагман
+                    </div>
+                    <div class="menu-subtext">
+                        лагман - это среднеазиатское спагетти <br>с добавлением мяса, зелени, специй<br> и бульона. Лапшу готовят вручную в<br> домашних условиях. В Узбекистане распро-<br>странено два основных вида лагмана - уй-<br>гурский чузма-лагман
+                        (тянущийся
+                        <br> лагман) и узбекский <br>кесма-лагман (резаный лагман).
+                    </div>
+                    <div class="points" onclick="vivod2()">
+                        ...
+                    </div>
+                    <div class="ingredient" id="lagman">
+                        Ингредиенты<br> 2 луковицы;<br> 3 моркови;<br> 1 перец;<br> 4 столовые ложки<br> растительного масла;<br> 700 г баранины;<br> 4 помидора;<br> 2 стакана воды;<br> соль, сахар, чёрный перец — по вкусу;<br> 5 картофелин;<br> 2 лавровых
+                        листа;
+                        <br> 400 г лапши для лагмана.<br>
+                    </div>
+                    <div class="menu-button">
+                        <a href="nuris2.html" class="menu-btn"> ЗАКАЗАТЬ</a>
+                    </div>
+                </div>
+
+
+
+                <div class="menu-item">
+                    <div class="menu-image">
+                        <img src="./гань фань.jpg" class="menu-img">
+                        <div class="price">
+                            <img src="./price.png" class="price-image">
+                            <div class="price-420">
+                                220
+                            </div>
+                        </div>
+                    </div>
+                    <div class="menu-text">
+                        Ган фан
+                    </div>
+                    <div class="menu-subtext">
+                        ганфан – одна из разновидностей нацио-<br>нальных блюд уйгуров и дунган.<br> По этапам приготовления суйру ганфан очень похож
+                        <br> на лагман. Главная разница между блюдами <br>в том, что в составе первого вместо<br> привычной лапши используют рис. Мясо<br> и овощи в блюде, также, мелко нарезаны,<br> как в суйру лагмане </div>
+                    <div class="points" onclick="vivod3()">
+                        ...
+                    </div>
+                    <div class="ingredient" id="ganfan">
+                        ингредиенты: Говядина - 350 г<br> Рис - 250 г<br> Масло растительное - 5-6 ст.л.<br> Лук репчатый - 1 шт.<br> Чеснок - 4 зубчика<br> Помидоры - 150 г<br> Томатная паста - 1 ч.л. <br> Сахар - 1 ч.л.<br> Соевый соус - 1.5 ст.л.<br>                        Вода - 100 мл<br> Перец болгарский - 2 шт.<br> Перец острый - по вкусу<br> Соль - по вкусу<br>
+                    </div>
+
+                    <div class="menu-button">
+                        <a href="ganfan.html" class="menu-btn"> ЗАКАЗАТЬ</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js.js"></script>
+
+</body>
+
+</html>
